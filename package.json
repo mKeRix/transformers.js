@@ -1,6 +1,6 @@
 {
   "name": "@mkerix/transformers",
-  "version": "3.8.0-patch.3",
+  "version": "3.8.0-patch.4",
   "description": "State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!",
   "main": "./src/transformers.js",
   "types": "./types/transformers.d.ts",
@@ -56,6 +56,7 @@
   "homepage": "https://github.com/huggingface/transformers.js#readme",
   "dependencies": {
     "@huggingface/jinja": "^0.5.1",
+    "onnxruntime-common": "1.24.0-dev.20251116-b39e144322",
     "onnxruntime-node": "1.24.0-dev.20251104-75d35474d5",
     "onnxruntime-web": "1.24.0-dev.20251104-75d35474d5",
     "sharp": "^0.34.1"
